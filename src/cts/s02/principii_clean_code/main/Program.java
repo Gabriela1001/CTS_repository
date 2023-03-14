@@ -12,6 +12,7 @@ public class Program {
     public static void main(String[] args) {
         List<Aplicant> listaAngajati;
         try {
+
             AplicantReader reader = new AngajatReader();
             listaAngajati = reader.readAplicants("C:\\Users\\gabri_w\\IdeaProjects\\CTS_repository\\seminar_2\\angajati.txt");
             for (Aplicant angajat : listaAngajati)
